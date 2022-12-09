@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Autor: Pedro Costa, Netflix Clone">
+
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <title>Página inicial</title>
+</head>
+
+<body>
+    <div id="loading">
+        <div class="loader">
+            <svg viewBox="25 25 50 50">
+                <circle r="20" cy="50" cx="50"></circle>
+            </svg>
+        </div>
+    </div>
+    <header>
+        <div class="background">
+            <img class="background-image" src="./assets/img/movies/ted.webp">
+            <div class="gradient"></div>
+        </div>
+        <div class="container header-container">
+            <div class="flex">
+                <div class="logo-menu">
+                    <div class="flex-column">
+                        <a href="#" class="logo">
+                            <figure>
+                                <img src="assets/img/logo.svg" alt="Logo netflix">
+                                <figcaption class="hidden">Logo netflix</figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="flex-column">
+                        <nav>
+                            <span id="menu-mobile">Navegar &nbsp;▾</span>
+                            <ul class="hidden" id="menu">
+                                <li class="item-ativo"><a href="#">Início</a></li>
+                                <li><a href="#">Séries</a></li>
+                                <li><a href="#">Filmes</a></li>
+                                <li><a href="#">Bombando</a></li>
+                                <li><a href="#">Minha lista</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="flex-column">
+                    <div class="menu-usuario">
+                        <span class="usuario"><img src="assets/img/user.png" alt="Ícone usuário"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="pagina-inicial">
+        <section class="secao-destaque">
+            <div class="container">
+                <article class="secao-destaque-conteudo">
+                    <figure>
+                        <img src="assets/img/movies/tedlogo.webp" alt="Título seção destaque">
+                        <figcaption class="hidden">Título seção destaque</figcaption>
+                    </figure>
+                    <p>Ela o amava e queria acreditar nele. Mas a verdade era monstruosa demais para ser ignorada.</p>
+                    <div class="secao-destaque-buttons">
+                        <button class="assistir"><img src="assets/img/play-button.svg" alt="">Assistir</button>
+                        <button class="mais-informacoes"><img src="assets/img/information.svg" alt=""> Mais
+                            informações</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="secao-catalogo" id="secao-continuar-assistindo">
+            <div class="container">
+                <h2 class="secao-catalogo-titulo">Continuar assistindo</h2>
+                <ul class="flex content-list" id="now-playing-list"></ul>
+            </div>
+        </section>
+        <section class="secao-catalogo" id="secao-minha-lista">
+            <div class="container">
+                <h2 class="secao-catalogo-titulo">Em alta</h2>
+                <ul class="flex content-list" id="em-alta-list"></ul>
+            </div>
+        </section>
+        <section class="secao-catalogo" id="secao-originais">
+            <div class="container">
+                <h2 class="secao-catalogo-titulo">Originais Netflix</h2>
+                <ul class="flex content-list" id="originals-list"></ul>
+            </div>
+        </section>
+        <section class="secao-catalogo">
+            <div class="container">
+                <h2 class="secao-catalogo-titulo">Programas para toda a família</h2>
+                <ul class="flex content-list" id="tv-show-list"></ul>
+            </div>
+        </section>
+    </main>
+
+    <script type="module" src="./assets/js/index.js"></script>
+</body>
+
+</html>
