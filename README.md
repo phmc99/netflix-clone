@@ -5,7 +5,7 @@
 ![Imagem Demonstração](assets/img/netflix-clone.jpg)
 
 ## 💻 Projeto
-Um Clone da página de filmes da Netflix. A finalidade desse projeto é praticar HTML, CSS e Javascript tentando replicar uma interface real.
+Um Clone da página inicial da Netflix. A finalidade desse projeto é praticar HTML, CSS e Javascript tentando replicar uma interface real.
 
 ## 🔨 Implementações
 
@@ -21,5 +21,5 @@ Um Clone da página de filmes da Netflix. A finalidade desse projeto é praticar
 
 
 ## 🌐 Deploy
-
+### 💢 Está tendo uma restrição de segurança por causa do nome da empresa! Mas pode confiar que é seguro. 
 [Link do Deploy](https://netflix-clone-phmc99.vercel.app/)
