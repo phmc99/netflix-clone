@@ -22,4 +22,4 @@ Um Clone da página de filmes da Netflix. A finalidade desse projeto é praticar
 
 ## 🌐 Deploy
 
-[Link do Deploy](https://github.com/phmc99/meu-bairro-api)
+[Link do Deploy](https://netflix-clone-phmc99.vercel.app/)
